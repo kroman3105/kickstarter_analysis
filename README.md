@@ -1,13 +1,13 @@
 # An Analysis of Kickstarter Campaigns
 ## Overview of Project
-### In order to advise on Louise's Kickstarter campaign, we obtained data on previous Kickstarter campaigns and how effective they were at achieving their goals.  This data provided insights that we used to highlight things to consider when trying to launch a successful Kickstarter campaign.   
+In order to advise on Louise's Kickstarter campaign, we obtained data on previous Kickstarter campaigns and how effective they were at achieving their goals.  This data provided insights that we used to highlight things to consider when trying to launch a successful Kickstarter campaign.   
 ## Analysis and Challenges
 
 After initially downloading the data into Excel, one of the first things we did was some conditional formatting to allow for ease in identifying successful campaigns verses failed campaigns.  We also performed a qucik calculation and color scale to show the Percentage Funded for all of the data.  This proved to be a valuable exercise becasue the color scale quickly demonstrated that one of the challenges we would face in using this data is that it contained some outliers.  We would need to keep this in mind as we performed further analysis.  One of the other challenges we faced was getting the data into a more readable format since the dates included in the data were in Unix timestamps.  Thankfully throught he use of some Excel tools we were able to quickly convert that into a more readable date field which enhanced our analysis of the data.
 
 Once we were comfortable with the data format, we began using pivot tables and pivot charts to glean insights on what seperated succesful campaigns from failed ones.  These charts and tables can be found using this link [Kickstarter_Challenge](C:\Users\kroma\Desktop\Vanderbilt Bootcamp\Crowdfunding Analysis\Kickstarter_Challenge.xlsx).  Some of the graphs that provided useful insights showed the Theater Outcomes Based on Launch date [Theater_Outcomes_vs_Launch](C:\Users\kroma\Desktop\Vanderbilt Bootcamp\Crowdfunding Analysis\Resources\Theater_Outcomes_vs_Launch.png)
 
-In addition we found the Outcomes Based on Goals chart to be particularly insightful [Outcomes_vs_Goals]((C:\Users\kroma\Desktop\Vanderbilt Bootcamp\Crowdfunding Analysis\Resources\Outcomes_vs_Goals.png)
+In addition we found the Outcomes Based on Goals chart to be particularly insightful [Outcomes_vs_Goals](https://github.com/kroman3105/kickstarter_analysis/blob/main/Resources/Outcomes_vs_Goals.png)
 ## Conclusions
 As we reviewed the Theater Outcomes Based on Launch Date chart, we noticed it there defintely seems to be an advantage to launching a campaign in the early summer.  A campaign launched in May or June returns a favorable success rate.  On the flip side of this, the chart illustrates that a campaign launced in December is just is likely to fail as it is to succeeed so we may want to avoid a December campaign launch.  A conclusion we drew from the Outcomes Based on Goals data is to be sure not to set a goal that is too lofty.  The majority of campaigns with goals set at $4,500 and above seemed to have failed to reach this goal.
 
